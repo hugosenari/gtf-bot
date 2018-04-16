@@ -5,10 +5,12 @@ name = "pypi"
 
 [packages]
 zappa = "*"
+toolz = "*"
+bottle = "*"
 python-telegram-bot = "*"
-falcon = "*"
 
 [dev-packages]
+pylint = "*"
 
 [requires]
 python_version = "3.6"

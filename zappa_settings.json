@@ -1,6 +1,6 @@
 {
     "dev": {
-        "app_function": "gtf-bot.app",
+        "app_function": "gtf_bot.app",
         "aws_region": "us-west-2",
         "profile_name": "default",
         "project_name": "gtf-bot",
@@ -8,6 +8,22 @@
         "s3_bucket": "zappa-v2g4bcokk",
         "cors": true,
         "keep_warm": false,
-        "use_precompiled_packages": false
+        "use_precompiled_packages": false,
+        "memory_size": 128,
+        "exclude": [
+            "*.pyc",
+            "*.zip",
+            "*__pycache__*",
+            "*dist-info*",
+            "*boto3*",
+            "*botocore*",
+            "*pylint*",
+            "*docutils*",
+            "*jmespath*",
+            "*s3transfer*",
+            "*setuptools",
+            "*kappa*",
+            "*pip-*"
+        ]
     }
 }
