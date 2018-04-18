@@ -23,7 +23,8 @@
             "*s3transfer*",
             "*setuptools",
             "*kappa*",
-            "*pip-*"
+            "*pip-*",
+            "*rope*"
         ]
     }
 }
